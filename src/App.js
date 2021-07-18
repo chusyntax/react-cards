@@ -5,8 +5,15 @@ function App() {
   return (
     <div className="cardWrapper">
 
-   <Card/>
-
+   <Card heading="Wassup"
+   description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus perferendis ad aperiam esse, repudiandae sit nam blanditiis a alias nostrum porro itaque omnis amet suscipit facere?"
+   />
+   <Card  heading="Hello"
+   description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus perferendis ad aperiam esse, repudiandae sit nam blanditiis a alias nostrum porro itaque omnis amet suscipit facere?"
+   />
+   <Card  heading="AYooo"
+   description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus perferendis ad aperiam esse, repudiandae sit nam blanditiis a alias nostrum porro itaque omnis amet suscipit facere?"
+   />
     </div>
   );
 }
